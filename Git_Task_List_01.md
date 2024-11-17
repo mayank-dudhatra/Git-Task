@@ -74,7 +74,7 @@ git add README.md
 git commit -m "Updated README with a description"
 ```
 ```
-Explaination :- echo: 
+Explaination :- echo: This command creates a new file named README.md and writes the text "My First Project" into it. 
 
 git add . : This Command Stage all chnages in the directory and Track all the files.
 
