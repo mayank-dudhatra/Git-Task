@@ -379,7 +379,9 @@ git commit -m "Fixed a typo": Commits the staged changes, with a message.
 
 git push origin fix-typo: This command pushes fix-typo branch and its changes the fork on GitHub.
 
+click on Compare & Pull Request.
 
+Write a description of your changes and submit the pull request to the original repository.
 ```
 
 # Part 4: Additional Practice
