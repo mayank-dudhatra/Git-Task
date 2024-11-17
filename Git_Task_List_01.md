@@ -189,7 +189,7 @@ git add . : This Command Stage all chnages in the directory and Track all the fi
 git commit: This Command save a screenshot of the current state of your Repository.
 -m : Allow you to add commit message .
 
-git checkout main: this com switches to main branch.
+git checkout main: this command switches to main branch.
 
 git merge feature-login: This command merge the feature-login to main brach. 
 ```
