@@ -280,8 +280,14 @@
      git commit -m "Resolved conflict in conflict.txt"
      ```
      ```
-     Explanation :- 
+     Explanation :- When you attempt a merge .Git give a error if two branches have conflicting changes to the same file.To resolve do following step.
 
+     git add conflict.txt: This command stage the confilct.txt file.
+
+     git commit -m "Resolved conflict in conflict.txt": Finalizes the merge process by creating a new commit with the resolved changes.
+
+     Once the conflict is resolved and committed, the repository moves forward with the merged changes, and the merge conflict is cleared. 
+     ```
 ---
 
 ### **Part 7: Deleting and Renaming Branches**
@@ -298,6 +304,11 @@
    git branch -D feature-branch
    ```
    - **Explanation**: Deletes the branch even if it hasn’t been merged.
+   ```
+   Explanation :- git branch -d <name>: This command Deletes the branch only if it has been merged.
+
+   git branch -D <name>: Deletes the branch regardless of whether it's merged.
+   ```
 
 #### **Task 12: Rename a Branch**
 1. Rename the current branch:  
@@ -308,7 +319,11 @@
    ```bash
    git branch -m old-branch-name new-branch-name
    ```
+   ```
+   Explanation :- git branch -m <new-branch-name>: This command renames the branch you're currently on to new-branch-name.
 
+   git branch -m <old-branch-name> <new-branch-name>: This command rename the from any branch.
+   ``` 
 ---
 
 ### **Consolidated Flow Summary**
