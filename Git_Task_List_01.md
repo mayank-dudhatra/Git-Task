@@ -307,7 +307,7 @@ git checkout -b cherry-pick-example
 git cherry-pick <commit-hash>
 ```
 ```
-Explaination :- This Command Create a new branch and switch into it (IN one Step).
+Explaination :- git checkout -b cherry-pick-example: This Command Create a new branch and switch into it (IN one Step).
 
 git cherry-pick <commit-hash>: This command takes the changes introduced by the commit with the specified <commit-hash> and applies those changes to your current working branch as a new commit. 
 ```
@@ -324,7 +324,7 @@ git push origin v1.0
 ```
 ```
 Explaination :- git tag: This command creates a tag on the current commit.
--a v1.0: The -a flag specifies that you`re creatinf an annotated tag .The v1.0 is the name of the tag.
+-a v1.0: The -a flag specifies that you`re creating an annotated tag .The v1.0 is the name of the tag.
 
 -m "Version 1.0 release": This provides a message for the tag.
 
