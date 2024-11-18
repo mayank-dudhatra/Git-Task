@@ -180,7 +180,7 @@ git init: This Initialize the current folder as Repository. After Initialize, a 
    ```
    ```
    Explaination :- git push: Sends your local changes to the remote repository.
-   -u: 
+   -u: This  is the shorthand for --set-upstream.
    origin: The name of the remote repository.
    main: The branch in your local repository being pushed to the corresponding branch in the remote repository.
 
@@ -215,7 +215,7 @@ git init: This Initialize the current folder as Repository. After Initialize, a 
    git stash drop
    ```
    ```
-   Explaination :- git stash: Temporarily saves (or stashes) the changes made in the working directory and staging area, then reverts the files to the last committed state.
+   Explaination :- git stash: The git stash command is used to temporarily save changes you've made to your working directory without committing them.After stashing, your working directory is reset to match the last commit.
    
    git stash apply: Applies the most recent stash (stash@{0}) back to the working directory without removing it from the stash list.
 
@@ -233,7 +233,7 @@ git init: This Initialize the current folder as Repository. After Initialize, a 
    ```
    ```
    Explaination :- git tag: This command creates a tag on the current commit.
-   -a v1.0: The -a flag specifies that you`re creatinf an annotated tag .The v1.0 is the name of the tag.
+   -a v1.0: The -a flag specifies that you`re creating an annotated tag .The v1.0 is the name of the tag.
 
    -m "Version 1.0 release": This provides a message for the tag.
 
