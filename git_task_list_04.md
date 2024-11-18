@@ -180,9 +180,9 @@
 
    git cherry-pick <commit-hash>: This command takes the changes introduced by the commit with the specified <commit-hash> and applies those changes to your current working branch as a new commit. 
 
-   git add . : The command stages all changes in the current directory for commit.
+   git add . : This command is used to stages all changes in the current directory for commit.
 
-   git cherry-pick --continue: command to resolve the conflicts and continue with the cherry-picking process.    
+   git cherry-pick --continue:This command is used to resolve the conflicts and continue with the cherry-picking process.    
    ```
 ---
 
@@ -265,7 +265,7 @@
    ```
    Explanation :- git remote origin :- Fetches the latest changes from the remote repository (here, origin) into your local repository.
 
-   git branch -r: this command is is used to list all remote branches that your Git repository knows about.
+   git branch -r: This command is used to list all remote branches that your Git repository knows about.
    ```
 
 #### **Task 14: Pull Changes from Remote**
@@ -299,7 +299,7 @@
    git push origin --delete feature-branch
    ```
    ```
-   Explanation :- git push origin --delete feature-branch :- is used to delete a branch named feature-branch from the remote repository (origin).
+   Explanation :- git push origin --delete feature-branch :- This Command is used to delete a branch named feature-branch from the remote repository (origin).
    ```
 ---
 
